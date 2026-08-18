@@ -1,4 +1,4 @@
-FROM ghcr.io/open-webui/open-webui:git-49a928d
+FROM ghcr.io/open-webui/open-webui:git-21e3905
 
 # Optional: Replace favicon icons
 # COPY favicon.svg /app/build/static/favicon.svg
