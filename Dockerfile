@@ -6,7 +6,7 @@ FROM ghcr.io/open-webui/open-webui:git-21e3905
 # COPY favicon.ico /app/build/static/favicon.ico
 
 # Copy your custom CSS file
-COPY custom.css /app/build/static/custom.css
+# COPY custom.css /app/build/static/custom.css
 
 RUN pip install --no-cache-dir skyfield tzdata flatlib timezonefinder && \
     python -c "import timezonefinder; timezonefinder.TimezoneFinder()"  # pre-downloads geodata
